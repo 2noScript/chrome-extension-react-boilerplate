@@ -1,7 +1,11 @@
 import "./App.scss";
 
 function App() {
-  return <div>vite + Extension + react + chrome</div>;
+  function click() {
+    // chrome.storage.sync.set({
+    // })
+  }
+  return <div onClick={click}>xin chao</div>;
 }
 
 export default App;
